@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F103383121AD2B4B00A1B1E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103383021AD2B4B00A1B1E2 /* AppDelegate.swift */; };
+		F103383321AD2B4B00A1B1E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103383221AD2B4B00A1B1E2 /* ViewController.swift */; };
+		F103383621AD2B4B00A1B1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F103383421AD2B4B00A1B1E2 /* Main.storyboard */; };
+		F103383821AD2B4C00A1B1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F103383721AD2B4C00A1B1E2 /* Assets.xcassets */; };
+		F103383B21AD2B4C00A1B1E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F103383921AD2B4C00A1B1E2 /* LaunchScreen.storyboard */; };
+		F103384621AD2B4C00A1B1E2 /* MarksAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103384521AD2B4C00A1B1E2 /* MarksAppTests.swift */; };
+		F103385121AD2B4C00A1B1E2 /* MarksAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103385021AD2B4C00A1B1E2 /* MarksAppUITests.swift */; };
+		F103385F21B23E3B00A1B1E2 /* H-Org.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F103385E21B23E3A00A1B1E2 /* H-Org.jpg */; };
+		F103386121B250DD00A1B1E2 /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = F103386021B250DD00A1B1E2 /* card.png */; };
+		F103386321B2532600A1B1E2 /* teacher.png in Resources */ = {isa = PBXBuildFile; fileRef = F103386221B2532600A1B1E2 /* teacher.png */; };
+		F103386521B2589100A1B1E2 /* slice2.png in Resources */ = {isa = PBXBuildFile; fileRef = F103386421B2589100A1B1E2 /* slice2.png */; };
+		F103386721B25F7700A1B1E2 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103386621B25F7700A1B1E2 /* DesignView.swift */; };
+		F103386921B2645C00A1B1E2 /* TeacherLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103386821B2645C00A1B1E2 /* TeacherLogin.swift */; };
+		F103386C21B26B1900A1B1E2 /* StudentLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103386B21B26B1900A1B1E2 /* StudentLogin.swift */; };
+		F103386F21B26D3100A1B1E2 /* student.png in Resources */ = {isa = PBXBuildFile; fileRef = F103386E21B26D3100A1B1E2 /* student.png */; };
+		F103387C21B26D5300A1B1E2 /* phonebook.png in Resources */ = {isa = PBXBuildFile; fileRef = F103387021B26D5200A1B1E2 /* phonebook.png */; };
+		F103387D21B26D5300A1B1E2 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = F103387121B26D5200A1B1E2 /* edit.png */; };
+		F103387E21B26D5300A1B1E2 /* receive_msg.png in Resources */ = {isa = PBXBuildFile; fileRef = F103387221B26D5200A1B1E2 /* receive_msg.png */; };
+		F103387F21B26D5300A1B1E2 /* resume.png in Resources */ = {isa = PBXBuildFile; fileRef = F103387321B26D5200A1B1E2 /* resume.png */; };
+		F103388021B26D5300A1B1E2 /* upload.png in Resources */ = {isa = PBXBuildFile; fileRef = F103387421B26D5200A1B1E2 /* upload.png */; };
+		F103388121B26D5300A1B1E2 /* curriculumw.png in Resources */ = {isa = PBXBuildFile; fileRef = F103387521B26D5200A1B1E2 /* curriculumw.png */; };
+		F103388221B26D5300A1B1E2 /* send_msg.png in Resources */ = {isa = PBXBuildFile; fileRef = F103387621B26D5300A1B1E2 /* send_msg.png */; };
+		F103388321B26D5300A1B1E2 /* analysis.png in Resources */ = {isa = PBXBuildFile; fileRef = F103387721B26D5300A1B1E2 /* analysis.png */; };
+		F103388421B26D5300A1B1E2 /* log3.png in Resources */ = {isa = PBXBuildFile; fileRef = F103387821B26D5300A1B1E2 /* log3.png */; };
+		F103388521B26D5300A1B1E2 /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = F103387921B26D5300A1B1E2 /* woman.png */; };
+		F103388621B26D5300A1B1E2 /* horg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F103387A21B26D5300A1B1E2 /* horg.jpg */; };
+		F103388721B26D5300A1B1E2 /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = F103387B21B26D5300A1B1E2 /* card.png */; };
+		F103388A21B26EBE00A1B1E2 /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103388921B26EBE00A1B1E2 /* DesignButton.swift */; };
+		F103388C21B2810E00A1B1E2 /* TeacherActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103388B21B2810E00A1B1E2 /* TeacherActivity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F103384221AD2B4C00A1B1E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F103382521AD2B4A00A1B1E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F103382C21AD2B4B00A1B1E2;
+			remoteInfo = MarksApp;
+		};
+		F103384D21AD2B4C00A1B1E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F103382521AD2B4A00A1B1E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F103382C21AD2B4B00A1B1E2;
+			remoteInfo = MarksApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F103382D21AD2B4B00A1B1E2 /* MarksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F103383021AD2B4B00A1B1E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F103383221AD2B4B00A1B1E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F103383521AD2B4B00A1B1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F103383721AD2B4C00A1B1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F103383A21AD2B4C00A1B1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F103383C21AD2B4C00A1B1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F103384121AD2B4C00A1B1E2 /* MarksAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarksAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F103384521AD2B4C00A1B1E2 /* MarksAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksAppTests.swift; sourceTree = "<group>"; };
+		F103384721AD2B4C00A1B1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F103384C21AD2B4C00A1B1E2 /* MarksAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarksAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F103385021AD2B4C00A1B1E2 /* MarksAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksAppUITests.swift; sourceTree = "<group>"; };
+		F103385221AD2B4C00A1B1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F103385E21B23E3A00A1B1E2 /* H-Org.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "H-Org.jpg"; path = "../../../../../../Volumes/EXTERNAL/H-Org.jpg"; sourceTree = "<group>"; };
+		F103386021B250DD00A1B1E2 /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card.png; path = "../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/card.png"; sourceTree = "<group>"; };
+		F103386221B2532600A1B1E2 /* teacher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teacher.png; sourceTree = "<group>"; };
+		F103386421B2589100A1B1E2 /* slice2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slice2.png; path = ../../../../Documents/slice2.png; sourceTree = "<group>"; };
+		F103386621B25F7700A1B1E2 /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
+		F103386821B2645C00A1B1E2 /* TeacherLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherLogin.swift; sourceTree = "<group>"; };
+		F103386B21B26B1900A1B1E2 /* StudentLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLogin.swift; sourceTree = "<group>"; };
+		F103386E21B26D3100A1B1E2 /* student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = student.png; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/student.png"; sourceTree = "<group>"; };
+		F103387021B26D5200A1B1E2 /* phonebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = phonebook.png; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/phonebook.png"; sourceTree = "<group>"; };
+		F103387121B26D5200A1B1E2 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = edit.png; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/edit.png"; sourceTree = "<group>"; };
+		F103387221B26D5200A1B1E2 /* receive_msg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = receive_msg.png; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/receive_msg.png"; sourceTree = "<group>"; };
+		F103387321B26D5200A1B1E2 /* resume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resume.png; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/resume.png"; sourceTree = "<group>"; };
+		F103387421B26D5200A1B1E2 /* upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upload.png; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/upload.png"; sourceTree = "<group>"; };
+		F103387521B26D5200A1B1E2 /* curriculumw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = curriculumw.png; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/curriculumw.png"; sourceTree = "<group>"; };
+		F103387621B26D5300A1B1E2 /* send_msg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = send_msg.png; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/send_msg.png"; sourceTree = "<group>"; };
+		F103387721B26D5300A1B1E2 /* analysis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analysis.png; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/analysis.png"; sourceTree = "<group>"; };
+		F103387821B26D5300A1B1E2 /* log3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = log3.png; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/log3.png"; sourceTree = "<group>"; };
+		F103387921B26D5300A1B1E2 /* woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = woman.png; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/woman.png"; sourceTree = "<group>"; };
+		F103387A21B26D5300A1B1E2 /* horg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = horg.jpg; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/horg.jpg"; sourceTree = "<group>"; };
+		F103387B21B26D5300A1B1E2 /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card.png; path = "../../../../../Documents/Attendence-master/app/src/main/res/drawable-v21/card.png"; sourceTree = "<group>"; };
+		F103388921B26EBE00A1B1E2 /* DesignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignButton.swift; sourceTree = "<group>"; };
+		F103388B21B2810E00A1B1E2 /* TeacherActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherActivity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F103382A21AD2B4B00A1B1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F103383E21AD2B4C00A1B1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F103384921AD2B4C00A1B1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F103382421AD2B4A00A1B1E2 = {
+			isa = PBXGroup;
+			children = (
+				F103382F21AD2B4B00A1B1E2 /* MarksApp */,
+				F103384421AD2B4C00A1B1E2 /* MarksAppTests */,
+				F103384F21AD2B4C00A1B1E2 /* MarksAppUITests */,
+				F103382E21AD2B4B00A1B1E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F103382E21AD2B4B00A1B1E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F103382D21AD2B4B00A1B1E2 /* MarksApp.app */,
+				F103384121AD2B4C00A1B1E2 /* MarksAppTests.xctest */,
+				F103384C21AD2B4C00A1B1E2 /* MarksAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F103382F21AD2B4B00A1B1E2 /* MarksApp */ = {
+			isa = PBXGroup;
+			children = (
+				F103388821B26EA200A1B1E2 /* Design */,
+				F103386D21B26BDE00A1B1E2 /* Images */,
+				F103386A21B26AFF00A1B1E2 /* StudentLogin */,
+				F103383021AD2B4B00A1B1E2 /* AppDelegate.swift */,
+				F103385E21B23E3A00A1B1E2 /* H-Org.jpg */,
+				F103386021B250DD00A1B1E2 /* card.png */,
+				F103386421B2589100A1B1E2 /* slice2.png */,
+				F103386221B2532600A1B1E2 /* teacher.png */,
+				F103383221AD2B4B00A1B1E2 /* ViewController.swift */,
+				F103383421AD2B4B00A1B1E2 /* Main.storyboard */,
+				F103383721AD2B4C00A1B1E2 /* Assets.xcassets */,
+				F103383921AD2B4C00A1B1E2 /* LaunchScreen.storyboard */,
+				F103383C21AD2B4C00A1B1E2 /* Info.plist */,
+				F103386621B25F7700A1B1E2 /* DesignView.swift */,
+				F103386821B2645C00A1B1E2 /* TeacherLogin.swift */,
+				F103388B21B2810E00A1B1E2 /* TeacherActivity.swift */,
+			);
+			path = MarksApp;
+			sourceTree = "<group>";
+		};
+		F103384421AD2B4C00A1B1E2 /* MarksAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F103384521AD2B4C00A1B1E2 /* MarksAppTests.swift */,
+				F103384721AD2B4C00A1B1E2 /* Info.plist */,
+			);
+			path = MarksAppTests;
+			sourceTree = "<group>";
+		};
+		F103384F21AD2B4C00A1B1E2 /* MarksAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F103385021AD2B4C00A1B1E2 /* MarksAppUITests.swift */,
+				F103385221AD2B4C00A1B1E2 /* Info.plist */,
+			);
+			path = MarksAppUITests;
+			sourceTree = "<group>";
+		};
+		F103386A21B26AFF00A1B1E2 /* StudentLogin */ = {
+			isa = PBXGroup;
+			children = (
+				F103386B21B26B1900A1B1E2 /* StudentLogin.swift */,
+			);
+			path = StudentLogin;
+			sourceTree = "<group>";
+		};
+		F103386D21B26BDE00A1B1E2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F103386E21B26D3100A1B1E2 /* student.png */,
+				F103387721B26D5300A1B1E2 /* analysis.png */,
+				F103387B21B26D5300A1B1E2 /* card.png */,
+				F103387521B26D5200A1B1E2 /* curriculumw.png */,
+				F103387121B26D5200A1B1E2 /* edit.png */,
+				F103387A21B26D5300A1B1E2 /* horg.jpg */,
+				F103387821B26D5300A1B1E2 /* log3.png */,
+				F103387021B26D5200A1B1E2 /* phonebook.png */,
+				F103387221B26D5200A1B1E2 /* receive_msg.png */,
+				F103387321B26D5200A1B1E2 /* resume.png */,
+				F103387621B26D5300A1B1E2 /* send_msg.png */,
+				F103387421B26D5200A1B1E2 /* upload.png */,
+				F103387921B26D5300A1B1E2 /* woman.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F103388821B26EA200A1B1E2 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				F103388921B26EBE00A1B1E2 /* DesignButton.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F103382C21AD2B4B00A1B1E2 /* MarksApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F103385521AD2B4C00A1B1E2 /* Build configuration list for PBXNativeTarget "MarksApp" */;
+			buildPhases = (
+				F103382921AD2B4B00A1B1E2 /* Sources */,
+				F103382A21AD2B4B00A1B1E2 /* Frameworks */,
+				F103382B21AD2B4B00A1B1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarksApp;
+			productName = MarksApp;
+			productReference = F103382D21AD2B4B00A1B1E2 /* MarksApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F103384021AD2B4C00A1B1E2 /* MarksAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F103385821AD2B4C00A1B1E2 /* Build configuration list for PBXNativeTarget "MarksAppTests" */;
+			buildPhases = (
+				F103383D21AD2B4C00A1B1E2 /* Sources */,
+				F103383E21AD2B4C00A1B1E2 /* Frameworks */,
+				F103383F21AD2B4C00A1B1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F103384321AD2B4C00A1B1E2 /* PBXTargetDependency */,
+			);
+			name = MarksAppTests;
+			productName = MarksAppTests;
+			productReference = F103384121AD2B4C00A1B1E2 /* MarksAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F103384B21AD2B4C00A1B1E2 /* MarksAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F103385B21AD2B4C00A1B1E2 /* Build configuration list for PBXNativeTarget "MarksAppUITests" */;
+			buildPhases = (
+				F103384821AD2B4C00A1B1E2 /* Sources */,
+				F103384921AD2B4C00A1B1E2 /* Frameworks */,
+				F103384A21AD2B4C00A1B1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F103384E21AD2B4C00A1B1E2 /* PBXTargetDependency */,
+			);
+			name = MarksAppUITests;
+			productName = MarksAppUITests;
+			productReference = F103384C21AD2B4C00A1B1E2 /* MarksAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F103382521AD2B4A00A1B1E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Sumith Kumar";
+				TargetAttributes = {
+					F103382C21AD2B4B00A1B1E2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F103384021AD2B4C00A1B1E2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F103382C21AD2B4B00A1B1E2;
+					};
+					F103384B21AD2B4C00A1B1E2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F103382C21AD2B4B00A1B1E2;
+					};
+				};
+			};
+			buildConfigurationList = F103382821AD2B4A00A1B1E2 /* Build configuration list for PBXProject "MarksApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F103382421AD2B4A00A1B1E2;
+			productRefGroup = F103382E21AD2B4B00A1B1E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F103382C21AD2B4B00A1B1E2 /* MarksApp */,
+				F103384021AD2B4C00A1B1E2 /* MarksAppTests */,
+				F103384B21AD2B4C00A1B1E2 /* MarksAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F103382B21AD2B4B00A1B1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F103388121B26D5300A1B1E2 /* curriculumw.png in Resources */,
+				F103388721B26D5300A1B1E2 /* card.png in Resources */,
+				F103383B21AD2B4C00A1B1E2 /* LaunchScreen.storyboard in Resources */,
+				F103387D21B26D5300A1B1E2 /* edit.png in Resources */,
+				F103388321B26D5300A1B1E2 /* analysis.png in Resources */,
+				F103388521B26D5300A1B1E2 /* woman.png in Resources */,
+				F103386521B2589100A1B1E2 /* slice2.png in Resources */,
+				F103386121B250DD00A1B1E2 /* card.png in Resources */,
+				F103388621B26D5300A1B1E2 /* horg.jpg in Resources */,
+				F103386321B2532600A1B1E2 /* teacher.png in Resources */,
+				F103388421B26D5300A1B1E2 /* log3.png in Resources */,
+				F103387C21B26D5300A1B1E2 /* phonebook.png in Resources */,
+				F103387F21B26D5300A1B1E2 /* resume.png in Resources */,
+				F103385F21B23E3B00A1B1E2 /* H-Org.jpg in Resources */,
+				F103387E21B26D5300A1B1E2 /* receive_msg.png in Resources */,
+				F103388221B26D5300A1B1E2 /* send_msg.png in Resources */,
+				F103388021B26D5300A1B1E2 /* upload.png in Resources */,
+				F103386F21B26D3100A1B1E2 /* student.png in Resources */,
+				F103383821AD2B4C00A1B1E2 /* Assets.xcassets in Resources */,
+				F103383621AD2B4B00A1B1E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F103383F21AD2B4C00A1B1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F103384A21AD2B4C00A1B1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F103382921AD2B4B00A1B1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F103383321AD2B4B00A1B1E2 /* ViewController.swift in Sources */,
+				F103383121AD2B4B00A1B1E2 /* AppDelegate.swift in Sources */,
+				F103386C21B26B1900A1B1E2 /* StudentLogin.swift in Sources */,
+				F103388C21B2810E00A1B1E2 /* TeacherActivity.swift in Sources */,
+				F103388A21B26EBE00A1B1E2 /* DesignButton.swift in Sources */,
+				F103386921B2645C00A1B1E2 /* TeacherLogin.swift in Sources */,
+				F103386721B25F7700A1B1E2 /* DesignView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F103383D21AD2B4C00A1B1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F103384621AD2B4C00A1B1E2 /* MarksAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F103384821AD2B4C00A1B1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F103385121AD2B4C00A1B1E2 /* MarksAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F103384321AD2B4C00A1B1E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F103382C21AD2B4B00A1B1E2 /* MarksApp */;
+			targetProxy = F103384221AD2B4C00A1B1E2 /* PBXContainerItemProxy */;
+		};
+		F103384E21AD2B4C00A1B1E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F103382C21AD2B4B00A1B1E2 /* MarksApp */;
+			targetProxy = F103384D21AD2B4C00A1B1E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F103383421AD2B4B00A1B1E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F103383521AD2B4B00A1B1E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F103383921AD2B4C00A1B1E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F103383A21AD2B4C00A1B1E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F103385321AD2B4C00A1B1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F103385421AD2B4C00A1B1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F103385621AD2B4C00A1B1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarksApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacy.MarksApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F103385721AD2B4C00A1B1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarksApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacy.MarksApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F103385921AD2B4C00A1B1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarksAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacy.MarksAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarksApp.app/MarksApp";
+			};
+			name = Debug;
+		};
+		F103385A21AD2B4C00A1B1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarksAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacy.MarksAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarksApp.app/MarksApp";
+			};
+			name = Release;
+		};
+		F103385C21AD2B4C00A1B1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarksAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacy.MarksAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarksApp;
+			};
+			name = Debug;
+		};
+		F103385D21AD2B4C00A1B1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarksAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacy.MarksAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarksApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F103382821AD2B4A00A1B1E2 /* Build configuration list for PBXProject "MarksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F103385321AD2B4C00A1B1E2 /* Debug */,
+				F103385421AD2B4C00A1B1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F103385521AD2B4C00A1B1E2 /* Build configuration list for PBXNativeTarget "MarksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F103385621AD2B4C00A1B1E2 /* Debug */,
+				F103385721AD2B4C00A1B1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F103385821AD2B4C00A1B1E2 /* Build configuration list for PBXNativeTarget "MarksAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F103385921AD2B4C00A1B1E2 /* Debug */,
+				F103385A21AD2B4C00A1B1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F103385B21AD2B4C00A1B1E2 /* Build configuration list for PBXNativeTarget "MarksAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F103385C21AD2B4C00A1B1E2 /* Debug */,
+				F103385D21AD2B4C00A1B1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F103382521AD2B4A00A1B1E2 /* Project object */;
+}
